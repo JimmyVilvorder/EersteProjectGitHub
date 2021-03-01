@@ -29,12 +29,5 @@ namespace EersteProjectGitHub
         {
             lblHelloWorld.Content = "Hello World, how are you";
         }
-
-            int iTeller = 0;
-        private void btnPlusOne_Click(object sender, RoutedEventArgs e)
-        {
-            iTeller++;
-            lblTeller.Content = iTeller.ToString();
-        }
     }
 }
