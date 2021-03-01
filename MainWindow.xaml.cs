@@ -24,5 +24,10 @@ namespace EersteProjectGitHub
         {
             InitializeComponent();
         }
+
+        private void btnShowHello_Click(object sender, RoutedEventArgs e)
+        {
+            lblHelloWorld.Content = "Hello World, how are you";
+        }
     }
 }
